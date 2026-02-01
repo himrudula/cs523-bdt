@@ -41,7 +41,7 @@ services:
 
   # 4. Main Big Data Service (Professor's custom image)
   cs523bdt-lab:
-    image: mmukadam/cs523bdt-lab:v1.0
+    image: mmukadam/cs523bdt-lab:v3.0
     container_name: cs523bdt-lab
     hostname: localhost
     depends_on:
