@@ -2,15 +2,25 @@
 
 This repository contains the Docker Compose configuration and necessary Windows utilities for the CS523 Big Data Technologies lab environment.
 
-## Overview
+## Components
 
-The setup provides a complete Big Data stack running in Docker containers, including:
-- **Hadoop (HDFS & YARN)**
-- **Apache Hive** (with Postgres as Metastore)
-- **Apache HBase**
-- **Apache Spark**
-- **Apache Kafka**
-- **Apache Zookeeper**
+- **Hadoop 3.2.1**: HDFS and YARN.
+- **Hive 3.1.2**: Data warehousing with Postgres as the Metastore.
+- **Pig 0.18.0**: Scripting platform for Hadoop.
+- **Spark 3.1.2**: Unified analytics engine.
+- **HBase 2.2.0**: NoSQL database for Hadoop.
+- **Kafka 3.4.0**: Distributed event streaming platform.
+- **Avro 1.11.3**: Data serialization system (includes `avro-tools`, Spark, and MapReduce integration).
+- **Flume 1.9.0**: Service for efficiently collecting, aggregating, and moving large amounts of log data.
+- **Sqoop 1.4.7**: Tool for efficiently transferring bulk data between Apache Hadoop and structured datastores like Postgres and MySQL.
+- **MySQL Connector/J 8.0.33**: JDBC driver for MySQL connectivity (used by Sqoop).
+- **Zookeeper 3.8**: Centralized service for maintaining configuration information and providing distributed synchronization.
+- **Postgres 16**: Used as the Hive Metastore database.
+
+## Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Project Structure
 
