@@ -31,7 +31,7 @@ This repository contains the Docker Compose configuration and necessary Windows 
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
-- (Windows users) Ensure your Docker is configured to use Linux containers (default).
+- Get the password for starting this container from your lab professor.
 
 ## Getting Started
 
