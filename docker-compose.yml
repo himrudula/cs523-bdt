@@ -59,7 +59,6 @@ services:
     volumes:
       # Mount a local folder 'my_code' to share files
       - ./my_code:/opt/my_code
-      - /etc/localtime:/etc/localtime:ro
     tty: true
 
 # Define the persistent volume
